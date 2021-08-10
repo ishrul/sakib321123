@@ -1,0 +1,531 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.header-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.header-area{
+    padding: 25px;
+}
+.conteiner{
+    width: 85%;
+    margin: auto;
+}
+.logo-area{
+    width: 50%;
+    float: left;
+}
+.menu-area{
+    width: 50%;
+    float: left;
+}
+.logo-area a img{
+    width: 80px;
+}
+.menu-area ul{
+    margin: 0;
+    padding: 0;
+}
+.menu-area ul li{
+    list-style: none;
+    float: left;
+}
+.menu-area ul li a{
+    margin-right: 25px;
+    padding: 10px;
+    font-size: 18px;
+    color: darkslategray;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu-area ul li a:hover{
+    text-decoration: underline;
+}
+/* END HEADER AREA */
+.first-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.first-area{
+    padding: 30px;
+    background: linear-gradient(#F5F5F5,#FEBECB);
+   
+}
+.f{
+    width: 95%;
+    margin: auto;
+}
+.first-area .barnard{
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+}
+.first-area .img{
+    width: 60%;
+    float: left;
+}
+.first-area .barnard h1{
+    font-size: 80px;
+    color: darkslateblue;
+}
+.first-area .barnard h2{
+    font-size: 50px;
+    color: darkslategrey;
+    margin-bottom: 0
+}
+.first-area .barnard h4{
+    font-size: 15px;
+    color: whitesmoke;
+}
+.first-area .img img{
+    width: 100%;
+}
+/* END FIRST AREA */
+.second-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.second-area{
+    background-color: darkgrey;
+    padding: 30px;
+}
+.s{
+    width: 90%;
+    margin: auto;
+}
+.second-area .second-img{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+.second-area .option{
+    width: 55%;
+    float: left;
+}
+.second-area .second-img img{
+    width: 100%;
+    height: 500px;
+}
+.second-area .option .text-box-a h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    color: aliceblue;
+}
+.second-area .option .text-box-a h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+.second-area .option .text-box-a h4{
+    font-size: 15px;
+    font-weight: 300;
+    color: aliceblue;
+}
+.second-area .option .text-box-b h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.second-area .option .text-box-c {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.second-area .option .text-box-c h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: darkslateblue;
+}
+.second-area .option a{
+    font-size: 20px;
+    text-decoration: none;
+    color: darkmagenta;
+    border: 1px solid green;
+    padding: 10px 10px;
+    background-color: darkslategray;
+    color: aliceblue;
+}
+.second-area .option a:hover{
+    cursor: pointer;
+    background-color: darkslateblue;
+}
+/* SECOND AREA */
+.third-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.third-area{
+    padding: 20px;
+    background-color: azure;
+    
+}
+.t{
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid blue;
+    display: flex;
+}
+.third-area .creative-design{
+    width: 30%;
+    float: left;
+      margin-right: 3%;
+    border-right: 1px solid green;
+}
+.third-area .brand-identity{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    border-right: 1px solid green;
+}
+.third-area .adobe-photoshop{
+    width: 30%;
+    float: left;
+}
+.third-area .creative-design h3{
+    font-size: 20px;
+    color: darkslategray;
+}
+.third-area .creative-design p{
+    width: 100%;
+    font-size: 16px;
+}
+.third-area .brand-identity h3{
+   font-size: 20px;
+    color: darkslategray; 
+}
+.third-area .brand-identity p{
+    width: 100%;
+    font-size: 16px;
+}
+
+.third-area .adobe-photoshop h3{
+    font-size: 20px;
+    color: darkslategray; 
+}
+.third-area .adobe-photoshop p{
+     width: 100%;
+    font-size: 16px;
+}
+/* THIRD AREA */
+.four-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.four-area{
+    padding: 25px;
+    background-color: darkslategray;
+}
+.f{
+    width: 80%;
+    margin: auto;
+}
+.four-area .shakib{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+}
+.four-area .list{
+    width: 55%;
+    float: left;
+}
+.four-area .shakib h1{
+    font-size: 45px;
+    margin-top: 0;
+    color: antiquewhite;
+}
+.four-area .list ul{
+    margin: 0;
+    padding: 0;
+}
+.four-area .list ul li{
+    list-style: none;
+    float: left;
+     margin-top: 25px;
+}
+.four-area .list ul li a{
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #f7f1e3;
+}
+.four-area .list ul li a:hover{
+    text-decoration: underline;
+}
+/* FOUR AREA */
+.five-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.five-area{
+   padding: 30px;
+    background: linear-gradient(#ffb8b8,#7efff5);
+}
+.five{
+    width: 90%;
+    margin: auto;
+}
+.five-area .first-area-p{
+    width: 100%;
+    display: flex;
+}
+.five-area .first-area-p .sweet-cherry,
+.five-area .first-area-p .delicious-fruit,
+.five-area .first-area-p .blue-lemon{
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+}
+.five-area .first-area-p .blue-lemon{
+    margin-right: 0;
+}
+.five-area .first-area-p .sweet-cherry img,
+.five-area .first-area-p .delicious-fruit img,
+.five-area .first-area-p .blue-lemon img{
+    width: 330px;
+    border: 1px solid black;
+    box-shadow: 0 10px 20px 0 green;
+}
+.five-area .first-area-p .sweet-cherry img,
+.five-area .first-area-p .blue-lemon img{
+    margin-top: 70px;
+}
+.five-area .first-area-p .delicious-fruit img{
+    height: 75%;
+}
+.five-area .first-area-p h2,
+.five-area .first-area-p h3{
+    text-align: center;
+    color: blue;
+    color: darkblue;
+}
+.five-area .second-picture-p .yellow-phone,
+.five-area .second-picture-p .ice-cream,
+.five-area .second-picture-p .good-present{
+    width: 30%;
+    float: left;
+    margin-right: 35px;
+}
+.five-area .second-picture-p .good-present{
+    margin-right: 0;
+}
+.five-area .second-picture-p .yellow-phone img,
+.five-area .second-picture-p .ice-cream img,
+.five-area .second-picture-p .good-present img{
+    width: 330px;
+    border: 1px solid black;
+    box-shadow: 0 10px 20px 0 green;
+   
+}
+.five-area .second-picture-p h2{
+    text-align: center;
+    font-size: 25px;
+    color: darkblue;
+}
+/* FIVE AREA */
+.six-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.six-area{
+    background-color: dimgrey;
+    padding: 30px;
+}
+.six{
+    width: 80%;
+    margin: auto;
+}
+.six-area .six-first-img,
+.six-area .six-second-img,
+.six-area .six-manik-img{
+    width: 30%;
+    float: left;
+    
+}
+.six-area .six-first-img,
+.six-area .six-second-img{
+  margin-right: 5%;  
+}
+.six-area .six-first-img a img,
+.six-area .six-second-img a img,
+.six-area .six-manik-img a img{
+    width: 100%;
+}
+.six-area .six-first-img h2,
+.six-area .six-first-img h3,
+.six-area .six-first-img p{
+    text-align: center;
+    color: #dfe4ea;
+}
+.six-area .six-second-img h2,
+.six-area .six-second-img h3,
+.six-area .six-second-img p{
+    text-align: center;
+    color: #dfe4ea;
+}
+.six-area .six-manik-img h2,
+.six-area .six-manik-img h3,
+.six-area .six-manik-img p{
+    text-align: center;
+    color: #dfe4ea;
+}
+/* END SIX AREA */
+.seven-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.seven-area{
+    background-color: darkseagreen;
+    padding: 30px;
+}
+.seven{
+    widows: 80%;
+    margin: auto;
+}
+.seven-area h2{
+    text-align: center;
+    font-size: 25px;
+    color: darkslateblue;
+}
+.seven-area .airplan,
+.seven-area .since,
+.seven-area .cins{
+    width: 30%;
+    float: left;
+}
+.seven-area .airplan,
+.seven-area .since{
+    margin-right: 5%;
+}
+.seven-area .airplan img,
+.seven-area .since img,
+.seven-area .cins img{
+    width: 100%;
+}
+.seven-area .airplan img,
+.seven-area .since img{
+    height: 500px;
+}
+.seven-area .airplan h3,
+.seven-area .since h3,
+.seven-area .cins h3{
+    color: darkslategray;
+    text-align: center;
+}
+/* END SEVEN AREA */
+.eight-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.eight-area{
+    background-color: floralwhite;
+    padding: 30px;
+}
+.eight{
+    width: 40%;
+    margin: auto;
+    border: 1px solid green;
+    box-shadow: 4px 10px 20px 4px green;
+}
+.eight-area h2{
+    text-align: center;
+    color: darkslateblue;
+    font-size: 30px;
+}
+.eight-area p{
+    text-align: center;
+    color: darkslategray;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.eight-area form input[type="text"]{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 5px;
+}
+.eight-area form textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+.eight-area form input[type="submit"]{
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    background-color: dimgray;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px
+}
+.eight-area form input[type="submit"]:hover{
+  background-color: darkslateblue; 
+}
+/* EIGHT AREA */
+.footer-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.footer-area{
+    padding: 30px;
+    background-color: darkslategray;
+}
+.footer{
+    width: 70%;
+    margin: auto;
+}
+.footer-area .first-section,
+.footer-area .second-section,
+.footer-area .third-section{
+    width: 30%;
+    float: left;
+}
+.footer-area .first-section h2,
+.footer-area .first-section h3{
+    color: azure;
+    text-align: center;
+    margin-right: 3%;
+}
+.footer-area .second-section h2,
+.footer-area .second-section h3{
+    color: azure;
+    text-align: center;
+    margin-right: 3%;
+}
+.footer-area .third-section ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-area .third-section ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-area .third-section ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer-area .third-section h3{
+    color: aliceblue;
+}
